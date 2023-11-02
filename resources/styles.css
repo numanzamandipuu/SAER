@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .card-body-head {
     display: flex;
     flex-direction: column;
@@ -30,9 +34,10 @@
 }
 
 .title {
+    font-family: 'Nunito', sans-serif;
     font-size: 40px;
     font-weight: 700;
-    color: #043c6c;
+    color: #002fff;
 }
 
 a {
@@ -56,10 +61,11 @@ a {
 }
   
 .profile-card-title {
+    font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 1.5em;
     text-align: left;
-    color: #190482;
+    color: #002fff;
 }
   
 .profile-card-text {
@@ -89,4 +95,25 @@ a {
 
 .blogs-bg {
     background-color: rgb(234, 235, 238);
+}
+
+footer {
+    background-color: #121212;
+    color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: aqua;
+}
+
+.footer-social {
+    margin: 20px 0;
 }
