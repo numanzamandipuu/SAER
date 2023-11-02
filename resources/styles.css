@@ -1,0 +1,73 @@
+.card-body-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.title-head {
+    color: #D51F32;
+}
+
+.title-text {
+    font-size: 18px;
+}
+
+.card-body {
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.card-title {
+    justify-content: left;
+    text-align: left;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+.profile-card-img-top {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+.profile-card {
+    margin: 1em;
+    padding: 1.5em 0.5em 0.5em;
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.8);
+}
+.profile-card-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: left;
+}
+.profile-card-text {
+    text-align: left;
+}
+.btn-primary {
+    border-radius: 2em;
+    padding: 0.5em 1.5em;
+}
+.contact-text {
+    text-align: left;
+}
+.member-card {
+    background-color: #1C1C1C!important;
+}
